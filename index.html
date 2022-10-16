@@ -150,14 +150,19 @@
       <h1 class="display-1">Contact Me</h1>
       <form
         class="contact-form"
-        action="https://formsubmit.co/chiragncx@gmail.com"
+        action="https://formsubmit.co/c7e0e77a7cc6c16b5c326ad5f98dbcea"
         method="POST"
+        onsubmit="showSnackbar();"
       >
-        <!-- Honeypot -->
         <input type="text" name="_honey" style="display: none" />
 
-        <!-- Disable Captcha -->
         <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://chiragnc22.github.io/myPortfolio/"
+        />
+
         <input
           type="text"
           name="name"
@@ -173,11 +178,12 @@
           placeholder="email"
         />
         <textarea
-          name="msg"
+          name="message"
           id="msg"
           placeholder="message"
           autocomplete="off"
         ></textarea>
+        <div id="snackbar">Form Submitted successfully</div>
         <button type="submit" class="form-submit-btn">contact</button>
       </form>
     </section>
