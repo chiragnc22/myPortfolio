@@ -296,20 +296,6 @@ a {
     line-height: 30px;
 }
 
-.skill-level {
-    position: absolute;
-    top: 80px;
-    right: -25px;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 22px;
-    border-radius: 50%;
-    border: 6px solid;
-}
-
 .skill-card:nth-child(1) .skill-level {
     background: #ff4f4f28;
     border-color: #ff4f4f;
@@ -502,7 +488,7 @@ a {
     cursor: pointer;
 }
 
-/* form sumbit */
+
 #snackbar {
     visibility: hidden;
     min-width: 250px;
